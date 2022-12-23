@@ -17,8 +17,8 @@ int main()
     trio[0].year = 2003;
     cout << trio->year << endl;
     const antarctica_years_end * arp[3] = { &s01, &s02, &s03 };
-    cout << arp[1]->year << end;
-    const antarctica_years_end **ppa = arp;
+    cout << arp[1]->year << endl;
+    //const antarctica_years_end **ppa = arp;
     auto ppa = arp;
     cout << (*ppa)->year << endl;
     cout << (*(ppa+1))->year << endl;
